@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <h1>Electric Vehicles Analysis</h1>
+  </nav>
+  
+  <div class="section_container">
+    <div class="section">
+      <h3>Yearly electric vehicle population</h3>
+      <div class="chart">
+        <canvas id="lineChart"></canvas>
+      </div>
+      <div class="right">
+        <p>The yearly introduction of electric vehicles (EVs) into the global market has grown significantly over the past
+          decade, reflecting increased environmental awareness, governmental policies, and advancements in EV technology
+        </p>
+        <h5>Rapid Growth</h5>
+        <p><b>2010-2019:</b> The early 2010s saw slow but steady growth as early adopters and governments started
+          supporting electric mobility. By 2015, EV sales were approximately 1300 annually.</p>
+        <p><b>2019-2023:</b> The introduction of new models and extended ranges led to rapid growth, with annual sales
+          surpassing 16000 by 2023.
+        </p>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h3>Electric vehicles produced by different companies</h3>
+      <div class="chart">
+        <canvas id="pieChart"></canvas>
+      </div>
+      <div class="right">
+        <p>Electric vehicles (EVs) are produced by a diverse range of automakers, from established legacy brands to
+          innovative startups. Here's a breakdown of EV production by various manufacturers, categorized into traditional
+          automakers, dedicated EV companies, and notable startups.
+          <br>In the pie chat we can see that Tesla is leading EV producer in US followed by Nissan and Chevrolet.
+        </p>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h3>County wise electric vehicle population</h3>
+      <div class="chart">
+        <canvas id="myChart"></canvas>
+      </div>
+      <div class="right">
+        <p>The electric vehicle (EV) population in Washington State has been growing rapidly, driven by state incentives,
+          environmental policies, and consumer demand. Washington consistently ranks among the top states in the U.S. for
+          EV adoption, with a focus on reducing emissions and supporting clean energy. EV adoption varies significantly by
+          county, influenced by factors such as population density, income levels, and charging infrastructure.
+          <br>From the bar chart we can see that King county has the highest concentration of EVs followed by Clark.
+          <br>Other counties of wasington state are not that rich in electric vehicles.
+        </p>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h3>Different types of electric vehicle population</h3>
+      <div class="chart">
+        <canvas id="myChart1"></canvas>
+      </div>
+      <div class="right">
+        <p><b>BEVs</b> are fully electric vehicles powered solely by batteries, with no internal combustion engine. These
+          vehicles produce zero tailpipe emissions.
+          <br><br><b>PHEVs</b> are vehicles that have both an internal combustion engine and an electric battery. They can
+          run on electric power alone for short distances and switch to gasoline for longer trips, making them more
+          flexible than BEVs.
+        </p>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h3>Clean Alternative Fuel Vehicle Eligiblity</h3>
+      <div class="chart">
+        <canvas id="pieChart1"></canvas>
+      </div>
+      <div class="right">
+        <p>Clean Alternative Fuel Vehicle (CAFV) eligibility refers to the qualification of vehicles to be recognized as
+          clean fuel vehicles that use alternative, non-petroleum-based fuels. These vehicles often qualify for various
+          incentives, tax credits, or exemptions designed to promote the adoption of greener transportation options. The
+          eligibility criteria for CAFVs depend on the specific state or federal programs and the type of alternative fuel
+          the vehicle uses.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
